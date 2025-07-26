@@ -8,13 +8,13 @@ const FooterPage = () => {
   return (
     <div className="w-full h-35 flex items-center justify-around overflow-hidden sm:px-32 sm:py-8">
       <div className="w-full flex items-center justify-center">
-        <div className="flex flex-col items-end justify-center gap-2">
-          <FaFacebook className="hover:text-blue-500 ease duration-300" />
-          <FaInstagram className="hover:text-rose-600 ease duration-300" />
-          <FaTiktok className="hover:text-slate-500 ease duration-300" />
+        <div className="flex flex-col items-end justify-center text-white gap-2">
+          <FaFacebook className="hover:text-blue-500 cursor-pointer ease duration-300" />
+          <FaInstagram className="hover:text-rose-600 cursor-pointer ease duration-300" />
+          <FaTiktok className="hover:text-slate-500 cursor-pointer ease duration-300" />
         </div>
         <hr className="w-30 bg-red-500 rotate-90" />
-        <div className="w-full flex flex-col items-start justify-center gep-3 font-light text-sm">
+        <div className="w-full text-white flex flex-col items-start justify-center gep-3 font-light text-sm">
           <strong>+01-4598526</strong>
           <strong>Batisputali, Kathmandu</strong>
           <strong>shreramchandra@gmail.com</strong>

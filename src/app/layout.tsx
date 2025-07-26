@@ -41,7 +41,7 @@ export default function RootLayout({
               <hr className="w-full border border-2 border-black" />
               <ReactQueryProvider>{children}</ReactQueryProvider>
             </div>
-            <div className="w-full h-25 bg-black px-8 py-4">
+            <div className="w-full h-45 bg-black px-8 py-4">
               <FooterPage />
             </div>
           </div>

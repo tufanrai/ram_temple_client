@@ -54,13 +54,13 @@ const HeaderPage = () => {
                     <NavigationMenuLink href="/about/about-temple">
                       Shree Ram Temple
                     </NavigationMenuLink>
-                    <NavigationMenuLink href="/about/about-temple">
+                    <NavigationMenuLink href="/about/founder">
                       Founder
                     </NavigationMenuLink>
-                    <NavigationMenuLink href="/about/about-temple">
+                    <NavigationMenuLink href="/about/JASS">
                       JASS
                     </NavigationMenuLink>
-                    <NavigationMenuLink href="/about/about-temple">
+                    <NavigationMenuLink href="/about/acharya">
                       Acharya
                     </NavigationMenuLink>
                   </NavigationMenuContent>
@@ -84,6 +84,9 @@ const HeaderPage = () => {
                       </NavigationMenuLink>
                     </NavigationMenuList>
                   </NavigationMenuContent>
+                </NavigationMenuItem>
+                <NavigationMenuItem>
+                  <NavigationMenuLink href="/blogs">Blogs</NavigationMenuLink>
                 </NavigationMenuItem>
                 <NavigationMenuItem>
                   <NavigationMenuLink href="/photosagar">
