@@ -12,12 +12,6 @@ import {
   NavigationMenuList,
   NavigationMenuTrigger,
 } from "@/components/ui/navigation-menu";
-import {
-  Accordion,
-  AccordionContent,
-  AccordionItem,
-  AccordionTrigger,
-} from "@/components/ui/accordion";
 
 const HeaderPage = () => {
   const [CloseTab, setCloseTab] = useState(true);
@@ -32,9 +26,9 @@ const HeaderPage = () => {
 
   return (
     <div className="amx-w-80 w-full bg-red-700">
-      <div className="w-full hidden sm:flex items-center justify-end px-4">
-        <ul className="w-full flex items-center justify-between mt-4">
-          <li>
+      <div className="w-full hidden sm:flex items-center justify-center px-8">
+        <ul className="w-full h-20 flex items-center justify-center gap-4 py-4">
+          <li className="mr-auto">
             <div className="w-20 h-20">
               <img
                 src={`${Logo.src}`}
@@ -44,15 +38,20 @@ const HeaderPage = () => {
               />
             </div>
           </li>
+          <li className="font-medium text-black text-sm cursor-pointer">
+            <Link
+              className="w-full px-6 py-2.5 text-white hover:text-black hover:bg-white ease rounded-lg duration-300 hover"
+              href={"/"}
+            >
+              Home
+            </Link>
+          </li>
           <li>
-            <NavigationMenu className="w-full text-white">
+            <NavigationMenu>
               <NavigationMenuList>
                 <NavigationMenuItem>
-                  <NavigationMenuLink href="/">Home</NavigationMenuLink>
-                </NavigationMenuItem>
-                <NavigationMenuItem>
-                  <NavigationMenuTrigger className="text-black">
-                    About
+                  <NavigationMenuTrigger className="bg-red-700 text-white">
+                    About Us
                   </NavigationMenuTrigger>
                   <NavigationMenuContent>
                     <NavigationMenuLink href="/about/about-temple">
@@ -69,11 +68,14 @@ const HeaderPage = () => {
                     </NavigationMenuLink>
                   </NavigationMenuContent>
                 </NavigationMenuItem>
+              </NavigationMenuList>
+            </NavigationMenu>
+          </li>
+          <li>
+            <NavigationMenu>
+              <NavigationMenuList>
                 <NavigationMenuItem>
-                  <NavigationMenuLink href="/query">Query</NavigationMenuLink>
-                </NavigationMenuItem>
-                <NavigationMenuItem>
-                  <NavigationMenuTrigger className="text-black">
+                  <NavigationMenuTrigger className="bg-red-700 text-white">
                     History
                   </NavigationMenuTrigger>
                   <NavigationMenuContent>
@@ -89,16 +91,32 @@ const HeaderPage = () => {
                     </NavigationMenuList>
                   </NavigationMenuContent>
                 </NavigationMenuItem>
-                <NavigationMenuItem>
-                  <NavigationMenuLink href="/blogs">Blogs</NavigationMenuLink>
-                </NavigationMenuItem>
-                <NavigationMenuItem>
-                  <NavigationMenuLink href="/photosagar">
-                    PhotoSagar
-                  </NavigationMenuLink>
-                </NavigationMenuItem>
               </NavigationMenuList>
             </NavigationMenu>
+          </li>
+          <li className="font-medium text-sm cursor-pointer">
+            <Link
+              className="w-full px-6 py-2.5 text-white hover:text-black hover:bg-white ease rounded-lg duration-300 hover"
+              href={"/"}
+            >
+              Blogs
+            </Link>
+          </li>
+          <li className="font-medium text-white text-sm cursor-pointer">
+            <Link
+              className="w-full px-6 py-2.5 hover:text-black hover:bg-white ease duration-300 rounded-lg hover"
+              href={"/"}
+            >
+              Query
+            </Link>
+          </li>
+          <li className="font-medium text-white text-sm cursor-pointer">
+            <Link
+              className="w-full px-6 py-2.5 hover:text-black hover:bg-white ease duration-300 rounded-lg hover"
+              href={"/"}
+            >
+              PhotoSagar
+            </Link>
           </li>
         </ul>
       </div>

@@ -6,7 +6,7 @@ import qrCode from "@/public/Demo-QR.png";
 const MediaLinks = () => {
   return (
     <>
-      <div className="w-full flex items-center justify-center sm:flex-col gap-2 sm:items-center sm:justify-start bg-neutral-500/15 sm:bg-red-700/15 py-4 px-8 sm:rounded-s-lg">
+      <div className="w-full flex items-center justify-center gap-2 py-4 px-8 sm:rounded-s-lg">
         <div className="w-full flex flex-col gap-3">
           <h1 className="font-semibold text-xl text-red-500 sm:mx-8">
             Follow us!
@@ -39,11 +39,12 @@ const MediaLinks = () => {
             Donation
           </h1>
           <div
-            className="max-w-35 h-35 sm:mx-16"
+            className="max-w-35 h-35"
             style={{
               backgroundImage: `url(${qrCode.src})`,
               backgroundPosition: "center",
               backgroundSize: "contain",
+              backgroundRepeat: "no-repeat",
             }}
           ></div>
         </div>
