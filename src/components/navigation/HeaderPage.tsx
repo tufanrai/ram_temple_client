@@ -7,13 +7,17 @@ import Logo from "@/public/Logo.png";
 import {
   NavigationMenu,
   NavigationMenuContent,
-  NavigationMenuIndicator,
   NavigationMenuItem,
   NavigationMenuLink,
   NavigationMenuList,
   NavigationMenuTrigger,
-  NavigationMenuViewport,
 } from "@/components/ui/navigation-menu";
+import {
+  Accordion,
+  AccordionContent,
+  AccordionItem,
+  AccordionTrigger,
+} from "@/components/ui/accordion";
 
 const HeaderPage = () => {
   const [CloseTab, setCloseTab] = useState(true);
@@ -132,17 +136,72 @@ const HeaderPage = () => {
                     Home
                   </li>
                 </Link>
-                <li
-                  onClick={() => tabClosed()}
-                  className="w-full text-light text-sm px-5 py-2 hover:bg-black ease duration-300 cursor-pointer"
-                >
-                  About
+                <li className="w-full font-light text-sm px-5 py-2 hover:bg-black ease duration-300 cursor-pointer">
+                  <NavigationMenu className="w-full">
+                    <NavigationMenuList className="w-full">
+                      <NavigationMenuItem>
+                        <NavigationMenuTrigger className="text-white text-sm max bg-transparent">
+                          About Us
+                        </NavigationMenuTrigger>
+                        <NavigationMenuContent className="w-full bg-white/25">
+                          <NavigationMenuLink
+                            className="text-black text-sm font-light bg-white/25"
+                            onClick={() => tabClosed()}
+                            href="/about/about-temple"
+                          >
+                            Shree Ram Temple
+                          </NavigationMenuLink>
+                          <NavigationMenuLink
+                            className="text-black text-sm font-light bg-white/25"
+                            onClick={() => tabClosed()}
+                            href="/about/founder"
+                          >
+                            Founder
+                          </NavigationMenuLink>
+                          <NavigationMenuLink
+                            className="text-black text-sm font-light bg-white/25"
+                            onClick={() => tabClosed()}
+                            href="/about/JASS"
+                          >
+                            JASS
+                          </NavigationMenuLink>
+                          <NavigationMenuLink
+                            className="text-black text-sm font-light bg-white/25"
+                            onClick={() => tabClosed()}
+                            href="/about/acharya"
+                          >
+                            Acharya
+                          </NavigationMenuLink>
+                        </NavigationMenuContent>
+                      </NavigationMenuItem>
+                    </NavigationMenuList>
+                  </NavigationMenu>
                 </li>
                 <li
                   onClick={() => tabClosed()}
                   className="w-full text-light text-sm px-5 py-2 hover:bg-black ease duration-300 cursor-pointer"
                 >
-                  History
+                  <NavigationMenu>
+                    <NavigationMenuList>
+                      <NavigationMenuItem>
+                        <NavigationMenuTrigger className="text-white bg-transparent text-sm">
+                          History
+                        </NavigationMenuTrigger>
+                        <NavigationMenuContent>
+                          <NavigationMenuList>
+                            <NavigationMenuLink href="/history/before">
+                              Before - 2016
+                            </NavigationMenuLink>
+                          </NavigationMenuList>
+                          <NavigationMenuList>
+                            <NavigationMenuLink href="/history/after">
+                              After - 2016
+                            </NavigationMenuLink>
+                          </NavigationMenuList>
+                        </NavigationMenuContent>
+                      </NavigationMenuItem>
+                    </NavigationMenuList>
+                  </NavigationMenu>
                 </li>
                 <Link className="w-full " href={"/query"}>
                   <li

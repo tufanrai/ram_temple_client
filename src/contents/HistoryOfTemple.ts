@@ -4,6 +4,11 @@ interface IHistory {
   paragraph: string[];
 }
 
+interface IOfferings {
+  title: string;
+  paragraph: string;
+}
+
 export const History: IHistory[] = [
   {
     title: "About Ram Chandra Temple",
@@ -11,3 +16,8 @@ export const History: IHistory[] = [
     paragraph: [""],
   },
 ];
+
+export const Offerings: IOfferings = {
+  title: "Offerings!",
+  paragraph: "",
+};
