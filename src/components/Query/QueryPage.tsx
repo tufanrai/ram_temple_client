@@ -19,7 +19,7 @@ const QueryPage = () => {
         <div className="w-full h-100 border border-b-1">
           <SpecialServices />
         </div>
-        <div className="w-full h-screen flex flex-col items-center justify-start px-16 py-8 sm:flex-row sm:px-8 sm:py-4">
+        <div className="w-full h-screen flex flex-col-reverse items-center justify-start px-16 py-8 sm:flex-row sm:px-8 sm:py-4">
           <MediaLinks />
           <div className="w-full flex flex-col gap-3 sm:border py-4 px-16 sm:rounded-lg">
             <h1 className="font-semibold text-xl text-red-500">Query form</h1>
