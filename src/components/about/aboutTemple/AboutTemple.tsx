@@ -15,7 +15,7 @@ const AboutTemple = () => {
               className="font-light text-xs/5 sm:text-sm/5 text-neutral-800"
               key={index}
             >
-              <p className="w-full">{value}</p>
+              <p className="w-full py-2">{value}</p>
             </span>
           ))}
         </div>
