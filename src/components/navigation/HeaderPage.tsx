@@ -97,7 +97,7 @@ const HeaderPage = () => {
           <li className="font-medium text-sm cursor-pointer">
             <Link
               className="w-full px-6 py-2.5 text-white hover:text-black hover:bg-white ease rounded-lg duration-300 hover"
-              href={"/"}
+              href={"/blogs"}
             >
               Blogs
             </Link>
@@ -105,7 +105,7 @@ const HeaderPage = () => {
           <li className="font-medium text-white text-sm cursor-pointer">
             <Link
               className="w-full px-6 py-2.5 hover:text-black hover:bg-white ease duration-300 rounded-lg hover"
-              href={"/"}
+              href={"/query"}
             >
               Query
             </Link>
@@ -113,7 +113,7 @@ const HeaderPage = () => {
           <li className="font-medium text-white text-sm cursor-pointer">
             <Link
               className="w-full px-6 py-2.5 hover:text-black hover:bg-white ease duration-300 rounded-lg hover"
-              href={"/"}
+              href={"/photosagar"}
             >
               PhotoSagar
             </Link>

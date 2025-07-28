@@ -1,5 +1,5 @@
 import React from "react";
-import { AboutRamTemple } from "@/src/contents/HistoryOfTemple";
+import { AboutRamTemple } from "@/src/contents/StaticContents";
 import TempleLook from "@/public/TempleLook.jpg";
 
 const AboutTemple = () => {

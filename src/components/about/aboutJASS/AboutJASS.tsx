@@ -1,5 +1,5 @@
 import React from "react";
-import { AboutJass } from "@/src/contents/HistoryOfTemple";
+import { AboutJass } from "@/src/contents/StaticContents";
 import Chairperson from "@/public/Chairperson.png";
 
 const AboutJASS = () => {
