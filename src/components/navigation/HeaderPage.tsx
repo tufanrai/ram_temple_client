@@ -105,6 +105,14 @@ const HeaderPage = () => {
           <li className="font-medium text-white text-sm cursor-pointer">
             <Link
               className="w-full px-6 py-2.5 hover:text-black hover:bg-white ease duration-300 rounded-lg hover"
+              href={"/services"}
+            >
+              Services
+            </Link>
+          </li>
+          <li className="font-medium text-white text-sm cursor-pointer">
+            <Link
+              className="w-full px-6 py-2.5 hover:text-black hover:bg-white ease duration-300 rounded-lg hover"
               href={"/query"}
             >
               Query
@@ -221,17 +229,25 @@ const HeaderPage = () => {
                     </NavigationMenuList>
                   </NavigationMenu>
                 </li>
+                <Link className="w-full " href={"/services"}>
+                  <li
+                    onClick={() => tabClosed()}
+                    className="text-light text-sm px-5 py-2 hover:bg-black ease duration-300 cursor-pointer"
+                  >
+                    Services
+                  </li>
+                </Link>
+                <Link className="w-full " href={""}>
+                  <li className="text-light text-sm px-5 py-2 hover:bg-black ease duration-300 cursor-pointer">
+                    Events
+                  </li>
+                </Link>
                 <Link className="w-full " href={"/query"}>
                   <li
                     onClick={() => tabClosed()}
                     className="text-light text-sm px-5 py-2 hover:bg-black ease duration-300 cursor-pointer"
                   >
                     Query
-                  </li>
-                </Link>
-                <Link className="w-full " href={""}>
-                  <li className="text-light text-sm px-5 py-2 hover:bg-black ease duration-300 cursor-pointer">
-                    Events
                   </li>
                 </Link>
                 <Link className="w-full" href={"/photosagar"}>

@@ -69,6 +69,93 @@ export const OfferingsAndServices: IOfferings[] = [
     paragraph: [
       "THe daily rituals at Sri Tamachandra Temple commence at 5:00 AM with the ceremonial awakening of Lord Rama. By 8:30 AM, the deity is bathed and adorned with clean, elegant attire and ornaments, followed by the offering of balabhoga(morning meal). During this time, devotees visit the temple for darsana (divine viewing), creating a vibrant atmosphere of devotion.",
       "At 9:00 AM, the morining arati and bhogaraga (offering of sattvic, vegetarian food) take place. During bhogaraga, curtains are drawn, as it is believed that the Lord's meal should not be witnessed. Devotees gather in the yajnamohana (prayer hall), with women standing on the northern side and men on the southern side, ensuring no obstruction. After arati, devotees offer obeisance (dandavat). Men perform full prostration, while women kneel, a practice rooted in Sanatana Hindu tradition, respecting physical differences. This act symbolizes the surrender of ego and pride.",
+      `The priest then blesses devotees by touching the Lord’s crown and sandals
+to their heads. Devotees remove any head covering and slightly bow as a
+sign of respect. The priest distributes tīrtha (holy water), goṣṭhī (fruits
+or sweets as prasāda), which devotees consume immediately or take
+home for family members. Dropping prasāda on the ground is considered
+disrespectful, reflecting devotion and discipline.`,
+      `Following āratī, devotional hymns and prayers are sung, culminating
+in jayakāra (welfare chants). The priest leads with chants like “Bhagavān
+Śrī Rāmachandra kī, ” to which devotees respond, “Jai ho!” Chants honor
+various deities, the temple’s founder, and the gathered devotees, concluding
+with a prayer for the welfare of all humanity—a unique Sanātana Hindu
+tradition echoing Vedic ideals of universal peace (Oṃ dyauḥ śāntiḥ...). The
+temple’s rituals, whether performed loudly or softly, aim for inner peace,
+self-betterment, and global harmony.`,
+      `The temple may open in the afternoon on special occasions or based
+on devotee attendance. Evening āratī occurs at 6:00 pm in summer and
+5:30 pm in winter, followed by the Lord’s rest (śukalā). The evening
+meal is offered, and the āratī follows the same procedure as the morning.
+Afterward, the Lord’s daytime attire is replaced with lighter clothing—
+thicker in winter and thinner in summer—ensuring divine comfort.`,
+    ],
+  },
+  {
+    title: "Occasional Worship (Naimittika Pūjā)",
+    paragraph: [
+      `On the first day of each Nepali month (saṅkrānti), a special
+trirumañjana (elaborate worship) attracts hundreds of devotees. Major
+festivals like Śrī Pañcamī, Sītā Jayantī, Vivāha Pañcamī, Ekādaśī, and
+Hanumān Jayantī feature grand pūjās, with the temple courtyard buzzing
+with devotees’ devotion.`,
+    ],
+  },
+  {
+    title: "Music and Devotional Evening (Saṅgīta Sādhanā Sandhyā)",
+    paragraph: [
+      `On every new moon (auṃsī), from 5:00 pm to 7:00 pm, the Sādhanā
+Sandhyā program showcases devotional and classical music. Running
+for 15 years, this event features renowned Nepali devotional singers and
+classical musicians. Organized by the Śrī Rāmachandra Temple Renovation
+and promotion Committee, with support from Nepal Academy of Fine
+Arts and the temple’s private trust, it has become a vibrant platform for
+emerging and established artists.`,
+      `Paused from 2076 to 2079 V.S (2019–2022 A.D) due to COVID-19, the
+program was revitalized in 2080 V.S (2023 A.D) with participation from
+Tribhuvan University’s Nepal Academy of Fine Arts. It has emerged as
+a cultural highlight in the Kathmandu Valley, drawing crowds eager to
+immerse in devotional music.`,
+    ],
+  },
+  {
+    title: "Daily Bhajan-Kīrtan Program",
+    paragraph: [
+      `Since 2081 V.S (2024 A.D), daily bhajan-kīrtan sessions from 4:30 pm to
+6:00 pm enhance the temple’s spiritual ambiance. Regular performers
+include young artists Ms. Rosha Phuyal, Mr. Roshan Phuyal, and Mr. Som
+Niraula, with renowned flutist Mr. Nagendra Bikram Rai and his team
+performing every Saturday. These sessions foster a deeply devotional
+environment.`,
+    ],
+  },
+  {
+    title: "Children’s Spiritual Classes (Bālvihāra)",
+    paragraph: [
+      `To instill cultural and spiritual values in young minds, Bālvihāra classes
+are held every Saturday from 4:00 pm to 5:00 pm for children aged 6 to 16.
+These sessions educate and inspire the youth to embrace a spiritual path,
+fostering positive life outcomes.`,
+    ],
+  },
+  {
+    title: "Training Programs",
+    paragraph: [
+      `The temple periodically offers training in flute, tabla, and vocal music,
+enriching its cultural vibrancy and engaging the community in artistic
+pursuits.`,
+    ],
+  },
+  {
+    title: "Weddings and Vratabandha Ceremonies",
+    paragraph: [
+      `The temple is a popular venue for weddings and bratabandha (sacred
+thread ceremonies), especially during auspicious times. Comprehensive
+arrangements, including vegetarian catering, make it a sought-after
+location, with bookings made 5–6 months in advance. On peak days, up to
+10–11 ceremonies occur simultaneously. Affordable rates and the temple’s
+sacred ambiance provide relief to families, from those with modest means
+to those seeking a divine setting for these sacred rites.`,
     ],
   },
 ];
