@@ -65,10 +65,21 @@ reverence and popularity.`,
 // Special Offerings
 export const OfferingsAndServices: IOfferings[] = [
   {
-    title: "Daily Worship (Nitya Puja)",
+    title: "Daily Worship (Nitya Pūjā)",
     paragraph: [
-      "THe daily rituals at Sri Tamachandra Temple commence at 5:00 AM with the ceremonial awakening of Lord Rama. By 8:30 AM, the deity is bathed and adorned with clean, elegant attire and ornaments, followed by the offering of balabhoga(morning meal). During this time, devotees visit the temple for darsana (divine viewing), creating a vibrant atmosphere of devotion.",
-      "At 9:00 AM, the morining arati and bhogaraga (offering of sattvic, vegetarian food) take place. During bhogaraga, curtains are drawn, as it is believed that the Lord's meal should not be witnessed. Devotees gather in the yajnamohana (prayer hall), with women standing on the northern side and men on the southern side, ensuring no obstruction. After arati, devotees offer obeisance (dandavat). Men perform full prostration, while women kneel, a practice rooted in Sanatana Hindu tradition, respecting physical differences. This act symbolizes the surrender of ego and pride.",
+      `The daily rituals at Śrī Rāmachandra Temple commence at 5:00 AM with the
+ceremonial awakening of Lord Rāma. By 8:30 AM, the deity is bathed and
+adorned with clean, elegant attire and ornaments, followed by the offering
+of bālabhoga(morning meal). During this time, devotees visit the temple
+for darśana (divine viewing), creating a vibrant atmosphere of devotion.`,
+      `At 9:00 AM, the morning āratī and bhogarāga (offering of sattvic,
+vegetarian food) take place. During bhogarāga, curtains are drawn, as it
+is believed that the Lord’s meal should not be witnessed. Devotees gather
+in the yajñamohana(prayer hall), with women standing on the northern
+side and men on the southern side, ensuring no obstruction. After āratī,
+devotees offer obeisance (daṇḍavat). Men perform full prostration, while
+women kneel, a practice rooted in Sanātana Hindu tradition, respecting
+physical differences. This act symbolizes the surrender of ego and pride.`,
       `The priest then blesses devotees by touching the Lord’s crown and sandals
 to their heads. Devotees remove any head covering and slightly bow as a
 sign of respect. The priest distributes tīrtha (holy water), goṣṭhī (fruits
