@@ -63,9 +63,6 @@ const HeaderPage = () => {
                     <NavigationMenuLink href="/about/JASS">
                       JASS
                     </NavigationMenuLink>
-                    <NavigationMenuLink href="/about/acharya">
-                      Acharya
-                    </NavigationMenuLink>
                   </NavigationMenuContent>
                 </NavigationMenuItem>
               </NavigationMenuList>
@@ -159,13 +156,6 @@ const HeaderPage = () => {
                             href="/about/JASS"
                           >
                             JASS
-                          </NavigationMenuLink>
-                          <NavigationMenuLink
-                            className="text-black text-sm font-light bg-white/25"
-                            onClick={() => tabClosed()}
-                            href="/about/acharya"
-                          >
-                            Acharya
                           </NavigationMenuLink>
                         </NavigationMenuContent>
                       </NavigationMenuItem>

@@ -110,7 +110,7 @@ const QueryCard = () => {
         <div className="w-full">
           <button
             type="submit"
-            className="w-full px-5 py-1 border text-white bg-red-600 cursor-pointer hover:bg-red-700 ease duration-300 border-red-500"
+            className="w-full px-5 py-1 rounded-sm border text-white bg-red-600 cursor-pointer hover:bg-red-700 ease duration-300 border-red-500"
           >
             Send
           </button>
