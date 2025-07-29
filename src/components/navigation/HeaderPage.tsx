@@ -71,37 +71,6 @@ const HeaderPage = () => {
               </NavigationMenuList>
             </NavigationMenu>
           </li>
-          <li>
-            <NavigationMenu>
-              <NavigationMenuList>
-                <NavigationMenuItem>
-                  <NavigationMenuTrigger className="bg-red-700 text-white">
-                    History
-                  </NavigationMenuTrigger>
-                  <NavigationMenuContent>
-                    <NavigationMenuList>
-                      <NavigationMenuLink href="/history/before">
-                        Before - 2016
-                      </NavigationMenuLink>
-                    </NavigationMenuList>
-                    <NavigationMenuList>
-                      <NavigationMenuLink href="/history/after">
-                        After - 2016
-                      </NavigationMenuLink>
-                    </NavigationMenuList>
-                  </NavigationMenuContent>
-                </NavigationMenuItem>
-              </NavigationMenuList>
-            </NavigationMenu>
-          </li>
-          <li className="font-medium text-sm cursor-pointer">
-            <Link
-              className="w-full px-6 py-2.5 text-white hover:text-black hover:bg-white ease rounded-lg duration-300 hover"
-              href={"/blogs"}
-            >
-              Blogs
-            </Link>
-          </li>
           <li className="font-medium text-white text-sm cursor-pointer">
             <Link
               className="w-full px-6 py-2.5 hover:text-black hover:bg-white ease duration-300 rounded-lg hover"
@@ -198,32 +167,6 @@ const HeaderPage = () => {
                           >
                             Acharya
                           </NavigationMenuLink>
-                        </NavigationMenuContent>
-                      </NavigationMenuItem>
-                    </NavigationMenuList>
-                  </NavigationMenu>
-                </li>
-                <li
-                  onClick={() => tabClosed()}
-                  className="w-full text-light text-sm px-5 py-2 hover:bg-black ease duration-300 cursor-pointer"
-                >
-                  <NavigationMenu>
-                    <NavigationMenuList>
-                      <NavigationMenuItem>
-                        <NavigationMenuTrigger className="text-white bg-transparent text-sm">
-                          History
-                        </NavigationMenuTrigger>
-                        <NavigationMenuContent>
-                          <NavigationMenuList>
-                            <NavigationMenuLink href="/history/before">
-                              Before - 2016
-                            </NavigationMenuLink>
-                          </NavigationMenuList>
-                          <NavigationMenuList>
-                            <NavigationMenuLink href="/history/after">
-                              After - 2016
-                            </NavigationMenuLink>
-                          </NavigationMenuList>
                         </NavigationMenuContent>
                       </NavigationMenuItem>
                     </NavigationMenuList>
