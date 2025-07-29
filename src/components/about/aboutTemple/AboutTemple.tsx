@@ -19,7 +19,7 @@ const AboutTemple = () => {
                 alt=""
               />
             </div>
-            <div className="w-full">
+            <div className="w-full mt-8 sm:mt-0">
               {AboutRamTemple.paragraphs?.map((value, index) => (
                 <p
                   key={index}
