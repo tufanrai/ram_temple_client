@@ -29,7 +29,7 @@ const HeaderPage = () => {
       <div className="w-full hidden sm:flex items-center justify-center">
         <ul className="max-w-[1920px] w-full h-20 xl:h-42 flex items-center justify-center gap-4 py-4">
           <li className="mr-auto">
-            <div className="w-20 h-20 xl:w-40 xl:h-40">
+            <div className="w-20 h-20 xl:w-30 xl:h-30">
               <img
                 src={`${Logo.src}`}
                 className="object-contain"

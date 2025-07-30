@@ -34,14 +34,14 @@ export default function RootLayout({
         <div className="w-full h-screen flex bg-black justify-center bg-white">
           <div className=" w-full h-screen grid gird-col">
             <Toaster position="top-center" reverseOrder={false} />
-            <div className="w-full h-20 xl:h-42 px-8 flex items-end justify-center bg-black/75">
+            <div className="w-full h-20 xl:h-32 px-8 flex items-end justify-center bg-black/75">
               <HeaderPage />
             </div>
             <div className="w-full h-screen bg-white flex flex-col items-center justify-start">
               <hr className="w-full border border-2 border-black" />
               <ReactQueryProvider>{children}</ReactQueryProvider>
             </div>
-            <div className="w-full h-45 bg-black px-8 py-4 flex items-center justify-center">
+            <div className="w-full h-40 bg-black px-8 py-4 flex items-center justify-center">
               <FooterPage />
             </div>
           </div>
