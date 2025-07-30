@@ -3,7 +3,7 @@ import NewsCards from "../cards/NewsCards";
 
 const SecondSectionPage = () => {
   return (
-    <div className="w-full py-4 flex flex-col-reverse sm:grid sm:grid-cols-2 items-center justify-start gap-2">
+    <div className="w-full py-4 flex flex-col-reverse sm:grid sm:grid-cols-2 items-center justify-start gap-2 xl:h-150">
       <div className="w-full px-8 py-4">
         <h1 className="font-semibold text-lg text-red-500 xl:text-3xl sm:mx-16">
           Temple Timing

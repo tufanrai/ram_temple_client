@@ -5,13 +5,15 @@ import MediaLinks from "./MediaLinks";
 
 const QueryPage = () => {
   return (
-    <div className="w-full h-screen">
-      <div className=" sm:max-w-[1100px] w-full h-screen overflow-x-hidden flex flex-col items-start justify-start overflow-y-auto gap-1">
+    <div className="w-full h-screen flex items-center justify-center">
+      <div className="sm:max-w-[1950px] sm:max-h-350 w-full h-screen overflow-x-hidden flex flex-col items-center justify-start overflow-y-auto gap-1">
         <div className="w-full h-screen flex flex-col-reverse items-center justify-start px-16 py-8 sm:flex-row sm:px-8 sm:py-4">
           <MediaLinks />
           <div className="w-full flex flex-col gap-3 sm:border py-4 px-16 sm:rounded-lg">
-            <h1 className="font-semibold text-xl text-red-500">Query form</h1>
-            <div className="max-w-95">
+            <h1 className="font-semibold text-xl text-red-500 text-center">
+              Query form
+            </h1>
+            <div className="max-w-150">
               <QueryCard />
             </div>
           </div>
