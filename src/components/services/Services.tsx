@@ -19,7 +19,7 @@ const Services = () => {
             <div className="w-full sm:px-8">
               {value.paragraph.map((pg, index) => (
                 <p
-                  className="font-light text-xs/5 sm:text-sm/5 text-neutral-800 py-2 xl:text-lg/5"
+                  className="font-light text-xs/5 sm:text-sm/5 text-neutral-800 py-2 xl:text-lg/5 xl:font-medium"
                   key={index}
                 >
                   {pg}
