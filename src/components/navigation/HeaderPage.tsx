@@ -38,7 +38,7 @@ const HeaderPage = () => {
               />
             </div>
           </li>
-          <li className="font-medium text-black text-sm xl:text-2xl cursor-pointer">
+          <li className="font-medium text-black text-sm xl:text-xl cursor-pointer">
             <Link
               className="w-full px-6 py-2.5 text-white hover:text-black hover:bg-white ease rounded-lg duration-300 hover"
               href={"/"}
@@ -50,7 +50,7 @@ const HeaderPage = () => {
             <NavigationMenu>
               <NavigationMenuList>
                 <NavigationMenuItem>
-                  <NavigationMenuTrigger className="bg-red-700 text-white xl:text-2xl">
+                  <NavigationMenuTrigger className="bg-red-700 text-white xl:text-xl">
                     About Us
                   </NavigationMenuTrigger>
                   <NavigationMenuContent>
@@ -77,7 +77,7 @@ const HeaderPage = () => {
               </NavigationMenuList>
             </NavigationMenu>
           </li>
-          <li className="font-medium text-white text-sm xl:text-2xl cursor-pointer">
+          <li className="font-medium text-white text-sm xl:text-xl cursor-pointer">
             <Link
               className="w-full px-6 py-2.5 hover:text-black hover:bg-white ease duration-300 rounded-lg hover"
               href={"/services"}
@@ -85,7 +85,7 @@ const HeaderPage = () => {
               Services
             </Link>
           </li>
-          <li className="font-medium text-white text-sm xl:text-2xl cursor-pointer">
+          <li className="font-medium text-white text-sm xl:text-xl cursor-pointer">
             <Link
               className="w-full px-6 py-2.5 hover:text-black hover:bg-white ease duration-300 rounded-lg hover"
               href={"/query"}
@@ -93,7 +93,7 @@ const HeaderPage = () => {
               Query
             </Link>
           </li>
-          <li className="font-medium text-white text-sm xl:text-2xl cursor-pointer">
+          <li className="font-medium text-white text-sm xl:text-xl cursor-pointer">
             <Link
               className="w-full px-6 py-2.5 hover:text-black hover:bg-white ease duration-300 rounded-lg hover"
               href={"/photosagar"}
