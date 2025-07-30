@@ -5,16 +5,18 @@ const SecondSectionPage = () => {
   return (
     <div className="w-full py-4 flex flex-col-reverse sm:grid sm:grid-cols-2 items-center justify-start gap-2">
       <div className="w-full px-8 py-4">
-        <h1 className="font-semibold text-lg text-red-500 sm:mx-16">
+        <h1 className="font-semibold text-lg text-red-500 xl:text-3xl sm:mx-16">
           Temple Timing
         </h1>
-        <div className="w-full max-w-125 px-24 py-8">
+        <div className="w-full max-w-125 px-24 xl:text-xl py-8">
           Here will be the image of the arati timing.
         </div>
       </div>
       <div className="w-full flex flex-col items-center justify-between">
         <div className="w-full px-8 py-4 flex flex-col gap-4">
-          <h1 className="font-semibold text-lg text-red-500 ">What's new?</h1>
+          <h1 className="font-semibold text-lg text-red-500 xl:text-3xl">
+            What's new?
+          </h1>
           <div className="w-full flex items-center justify-start gap-2">
             {/* New Events new card sectin */}{" "}
             <NewsCards

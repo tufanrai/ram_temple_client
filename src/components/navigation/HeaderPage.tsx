@@ -25,11 +25,11 @@ const HeaderPage = () => {
   };
 
   return (
-    <div className=" w-full bg-red-700">
+    <div className=" w-full xl:h-42 bg-red-700">
       <div className="w-full hidden sm:flex items-center justify-center">
-        <ul className="w-full h-20 flex items-center justify-center gap-4 py-4">
+        <ul className="max-w-[1920px] w-full h-20 xl:h-42 flex items-center justify-center gap-4 py-4">
           <li className="mr-auto">
-            <div className="w-20 h-20">
+            <div className="w-20 h-20 xl:w-40 xl:h-40">
               <img
                 src={`${Logo.src}`}
                 className="object-contain"
@@ -38,7 +38,7 @@ const HeaderPage = () => {
               />
             </div>
           </li>
-          <li className="font-medium text-black text-sm cursor-pointer">
+          <li className="font-medium text-black text-sm xl:text-2xl cursor-pointer">
             <Link
               className="w-full px-6 py-2.5 text-white hover:text-black hover:bg-white ease rounded-lg duration-300 hover"
               href={"/"}
@@ -50,17 +50,26 @@ const HeaderPage = () => {
             <NavigationMenu>
               <NavigationMenuList>
                 <NavigationMenuItem>
-                  <NavigationMenuTrigger className="bg-red-700 text-white">
+                  <NavigationMenuTrigger className="bg-red-700 text-white xl:text-2xl">
                     About Us
                   </NavigationMenuTrigger>
                   <NavigationMenuContent>
-                    <NavigationMenuLink href="/about/about-temple">
+                    <NavigationMenuLink
+                      className="xl:text-xl"
+                      href="/about/about-temple"
+                    >
                       Shree Ram Temple
                     </NavigationMenuLink>
-                    <NavigationMenuLink href="/about/founder">
+                    <NavigationMenuLink
+                      className="xl:text-xl"
+                      href="/about/founder"
+                    >
                       Founder
                     </NavigationMenuLink>
-                    <NavigationMenuLink href="/about/JASS">
+                    <NavigationMenuLink
+                      className="xl:text-xl"
+                      href="/about/JASS"
+                    >
                       JASS
                     </NavigationMenuLink>
                   </NavigationMenuContent>
@@ -68,7 +77,7 @@ const HeaderPage = () => {
               </NavigationMenuList>
             </NavigationMenu>
           </li>
-          <li className="font-medium text-white text-sm cursor-pointer">
+          <li className="font-medium text-white text-sm xl:text-2xl cursor-pointer">
             <Link
               className="w-full px-6 py-2.5 hover:text-black hover:bg-white ease duration-300 rounded-lg hover"
               href={"/services"}
@@ -76,7 +85,7 @@ const HeaderPage = () => {
               Services
             </Link>
           </li>
-          <li className="font-medium text-white text-sm cursor-pointer">
+          <li className="font-medium text-white text-sm xl:text-2xl cursor-pointer">
             <Link
               className="w-full px-6 py-2.5 hover:text-black hover:bg-white ease duration-300 rounded-lg hover"
               href={"/query"}
@@ -84,7 +93,7 @@ const HeaderPage = () => {
               Query
             </Link>
           </li>
-          <li className="font-medium text-white text-sm cursor-pointer">
+          <li className="font-medium text-white text-sm xl:text-2xl cursor-pointer">
             <Link
               className="w-full px-6 py-2.5 hover:text-black hover:bg-white ease duration-300 rounded-lg hover"
               href={"/photosagar"}

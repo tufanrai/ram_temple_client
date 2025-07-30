@@ -6,7 +6,7 @@ import Logo from "@/public/Logo.png";
 
 const FooterPage = () => {
   return (
-    <div className="w-full h-32 flex items-center justify-around overflow-hidden sm:px-32 sm:py-8">
+    <div className="max-w-[1820px] w-full h-32 flex items-center justify-around overflow-hidden sm:px-32 sm:py-8">
       <div className="w-full flex items-center justify-center">
         <div className="flex flex-col items-end justify-center text-white gap-2">
           <FaFacebook className="hover:text-blue-500 cursor-pointer ease duration-300" />

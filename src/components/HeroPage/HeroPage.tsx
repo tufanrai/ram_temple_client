@@ -4,7 +4,7 @@ import SecondSectionPage from "../Hero component/SecondSectionPage";
 
 const HeroPage = () => {
   return (
-    <div className="w-full h-screen overflow-y-auto overflow-x-hidden">
+    <div className="max-w-[1920px] w-full h-screen overflow-y-auto overflow-x-hidden flex flex-col items-center justify-start">
       <BannerPage />
       <SecondSectionPage />
     </div>
