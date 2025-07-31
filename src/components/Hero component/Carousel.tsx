@@ -25,7 +25,7 @@ export default function Carousel({
   }, []);
 
   return (
-    <div className="w-full overflow-hidden relative">
+    <div className="w-full relative h-screen">
       <div
         className="flex bg-red-800 transition-transform ease-out duration-500"
         style={{ transform: `translateX(-${curr * 100}%)` }}

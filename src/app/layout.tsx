@@ -29,23 +29,13 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased w-full h-screen overflow-y-auto relative`}
       >
-        <div className="w-full h-screen flex bg-black justify-center bg-white">
-          <div className=" w-full h-screen grid gird-col">
-            <Toaster position="top-center" reverseOrder={false} />
-            <div className="w-full h-20 xl:h-32 px-8 flex items-end justify-center bg-black/75">
-              <HeaderPage />
-            </div>
-            <div className="w-full h-screen bg-white flex flex-col items-center justify-start">
-              <hr className="w-full border border-2 border-black" />
-              <ReactQueryProvider>{children}</ReactQueryProvider>
-            </div>
-            <div className="w-full h-40 bg-black px-8 py-4 flex items-center justify-center">
-              <FooterPage />
-            </div>
-          </div>
-        </div>
+        <Toaster position="top-center" reverseOrder={false} />
+        <HeaderPage />
+        <hr className="w-full border border-2 border-black" />
+        <ReactQueryProvider>{children}</ReactQueryProvider>
+        <FooterPage />
       </body>
     </html>
   );
