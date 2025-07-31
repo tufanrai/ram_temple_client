@@ -5,7 +5,7 @@ import ShreeRamBanner from "@/public/shreeRamChandrarBanner.jpg";
 
 const AboutJASS = () => {
   return (
-    <div className="w-full h-screen flex items-center justify-center">
+    <div className="w-full h-screen flex items-center justify-center block">
       <div
         style={{
           backgroundImage: `url('${ShreeRamBanner.src}')`,
@@ -23,7 +23,7 @@ const AboutJASS = () => {
             <h1 className="w-full px-8 py-2 font-bold text-lg mt-16 bg-red-600 text-white max-w-280 sm:text-center sm:ml-8 sm:px-16">
               {value.title}
             </h1>
-            <div className="flex items-end justify-start gap-1 mt-8">
+            <div className="flex items-end justify-start gap-1 ml-8 mt-8">
               <div className="w-45 h-58 overflow-hidden rounded-md">
                 <img
                   src={`${Chairperson.src}`}

@@ -13,7 +13,7 @@ const AboutTemple = () => {
           backgroundBlendMode: "overlay",
           backgroundRepeat: "no-repeat",
         }}
-        className="w-full h-screen py-10 flex flex-col items-center justify-center"
+        className="w-full h-screen py-10 bg-center flex flex-col items-center justify-center"
       >
         <div className="w-full h-screen bg-black/45 sm:bg-linear-to-r sm:from-black/75 sm:to-white/0">
           <h1 className="w-full px-8 py-2 font-bold text-lg mt-16 bg-red-600 text-white max-w-280 sm:ml-8 sm:px-16">
