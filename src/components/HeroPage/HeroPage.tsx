@@ -10,7 +10,7 @@ const HeroPage = () => {
   const slides = [img1.src, img2.src, img3.src, img4.src];
   return (
     <div className="max-w-[1820px] w-full flex flex-col items-center justify-start">
-      <div className="w-full h-screen overflow-hidden">
+      <div className="w-full max-h-80 sm:max-h-screen overflow-hidden">
         <Carousel autoSlide slides={slides} />
       </div>
       <SecondSectionPage />

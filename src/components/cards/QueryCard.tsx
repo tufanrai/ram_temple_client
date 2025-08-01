@@ -40,11 +40,11 @@ const QueryCard = () => {
     <form onSubmit={handleSubmit(SubmitForm)}>
       <div className="flex flex-col text-black gap-2">
         <div className="flex flex-col gap-1">
-          <label className="font-thin text-slate-600 text-md">Full name</label>
+          <label className="font-light text-white text-md">Full name</label>
           <input
             type="text"
             {...register("full_name")}
-            className="border border-black/35 px-4 py-1 font-light text-sm text-black/75 focus:outline-none rounded-md"
+            className="border border-white px-4 py-1 font-thin text-sm text-white focus:outline-none rounded-md"
             placeholder="Jhon Dhoe"
           />
           {errors && errors.full_name ? (
@@ -56,11 +56,11 @@ const QueryCard = () => {
           )}
         </div>
         <div className="flex flex-col gap-1">
-          <label className="font-thin text-slate-600 text-md">Email</label>
+          <label className="font-light text-white text-md">Email</label>
           <input
             type="text"
             {...register("email")}
-            className="border border-black/35 px-4 py-1 font-light text-sm text-black/75 focus:outline-none rounded-md"
+            className="border border-white px-4 py-1 font-thin text-sm text-white focus:outline-none rounded-md"
             placeholder="jhon@gmail.com"
           />
           {errors && errors.email ? (
@@ -72,13 +72,11 @@ const QueryCard = () => {
           )}
         </div>
         <div className="flex flex-col gap-1">
-          <label className="font-thin text-slate-600 text-md">
-            Phone number
-          </label>
+          <label className="font-light text-white text-md">Phone number</label>
           <input
             type="text"
             {...register("contactNumber")}
-            className="border border-black/35 px-4 py-1 font-light text-sm text-black/75 focus:outline-none rounded-md"
+            className="border border-white px-4 py-1 font-thin text-sm text-white focus:outline-none rounded-md"
             placeholder="9712345678"
           />
           {errors && errors.contactNumber ? (
@@ -90,14 +88,12 @@ const QueryCard = () => {
           )}
         </div>
         <div className="flex flex-col gap-1">
-          <label className="font-thin text-slate-600 text-md">
-            Description
-          </label>
+          <label className="font-thin text-white text-md">Description</label>
           <textarea
             rows={5}
             cols={5}
             {...register("query")}
-            className="border border-black/35 px-4 py-1 focus:outline-none rounded-md text-sm text-black/75 font-light"
+            className="border border-white px-4 py-1 focus:outline-none rounded-md text-sm text-white font-thin"
           ></textarea>
           {errors && errors.query ? (
             <p className="w-full text-sm font-light text-red-500">
@@ -110,7 +106,7 @@ const QueryCard = () => {
         <div className="w-full">
           <button
             type="submit"
-            className="w-full px-5 py-1 rounded-sm border text-white bg-red-600 cursor-pointer hover:bg-red-700 ease duration-300 border-red-500"
+            className="w-full px-5 py-2 rounded-sm text-white bg-red-600 cursor-pointer hover:bg-red-700 ease duration-300"
           >
             Send
           </button>

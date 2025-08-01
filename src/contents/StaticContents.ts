@@ -1,3 +1,5 @@
+import ChariPerson from "@/public/Chairperson.png";
+
 interface IAboutTemple {
   title: string;
   paragraphs: string[];
@@ -5,6 +7,8 @@ interface IAboutTemple {
 
 interface IJass {
   title: string;
+  image: string;
+  name: string;
   paragraphs: string[];
 }
 
@@ -26,6 +30,8 @@ export const AboutRamTemple: IAboutTemple = {
 export const AboutJass: IJass[] = [
   {
     title: "Message from the Chairperson",
+    image: `${ChariPerson.src}`,
+    name: "- Dr. Goinda Tandon",
     paragraphs: [
       `Nestled in Battisputali, the sacred temple
 of Lord Śrī Rāmachandra, accompanied
