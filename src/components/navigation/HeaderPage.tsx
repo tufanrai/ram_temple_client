@@ -27,7 +27,7 @@ const HeaderPage = () => {
   return (
     <div className=" w-full bg-red-700">
       <div className="w-full hidden sm:flex items-center justify-center">
-        <ul className="max-w-[1280px] w-full h-20 flex items-center justify-center gap-4 py-4">
+        <ul className="max-w-[1280px] w-full h-20 flex items-center justify-center gap-4 py-4 px-16">
           <li className="mr-auto">
             <div className="w-20 h-20">
               <img

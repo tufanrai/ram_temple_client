@@ -16,17 +16,16 @@ const SecondSectionPage = () => {
         <div className="w-full px-8 py-4 flex flex-col gap-4">
           <h1 className="font-semibold text-lg text-red-500">What's new?</h1>
           <div className="w-full flex items-center justify-start gap-2">
-            {/* New Events new card sectin */}{" "}
             <NewsCards
               image="str"
               description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt ratione
           omnis a at voluptates"
-            />{" "}
+            />
             <NewsCards
               image="str"
               description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt ratione
           omnis a at voluptates"
-            />{" "}
+            />
           </div>
         </div>
       </div>
