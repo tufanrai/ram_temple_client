@@ -3,23 +3,23 @@ import { OfferingsAndServices } from "@/src/contents/StaticContents";
 
 const Services = () => {
   return (
-    <div className="w-full h-screen  px-8 py-4 sm:px-16">
-      <h1 className="font-semibold text-xl text-red-500 sm:mx-8 xl:text-2xl">
+    <div className="max-w-[1280px] w-full h-screen py-8">
+      <h1 className="w-full px-8 py-2 font-bold text-lg mt-16 bg-red-600 text-white max-w-280 sm:ml-8 sm:px-16">
         Daily and Occasional Activities at Śrī Rāmachandra Temple, Battisputali
       </h1>
       <div>
         {OfferingsAndServices.map((value, index) => (
           <div
-            className="px-8 py-4 flex flex-col items-center justify-start"
+            className="w-full flex flex-col items-center justify-start"
             key={index}
           >
-            <h3 className="font-medium text-lg px-4 w-full text-amber-500 sm:mx-8 xl:text-xl">
+            <h3 className="w-full px-8 py-1 font-semibold text-lg mt-4 bg-amber-500 text-white">
               {value.title}
             </h3>
-            <div className="w-full sm:px-8">
+            <div className="max-w-1000 w-full px-8 py-4">
               {value.paragraph.map((pg, index) => (
                 <p
-                  className="font-light text-xs/5 sm:text-sm/5 text-neutral-800 py-2 xl:text-lg/6 xl:font-medium"
+                  className="font-medium text-sm/5 sm:text-md/5 text-white/75 sm:text-white py-2"
                   key={index}
                 >
                   {pg}
