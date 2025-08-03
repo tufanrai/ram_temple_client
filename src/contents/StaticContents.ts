@@ -1,4 +1,8 @@
 import ChariPerson from "@/public/Chairperson.png";
+import TempleLook from "@/public/TempleLook.jpg";
+import ShreeRamBanner from "@/public/shreeRamChandrarBanner.jpg";
+import Devotee from "@/public/DeviteesOfShreeRam.jpg";
+import Celebration from "@/public/ShreeRamDevotee2.jpg";
 
 interface IAboutTemple {
   title: string;
@@ -15,6 +19,10 @@ interface IJass {
 interface IOfferings {
   title: string;
   paragraph: string[];
+}
+
+interface IPhotoSagar {
+  url: string;
 }
 
 // About Temple
@@ -183,5 +191,21 @@ location, with bookings made 5–6 months in advance. On peak days, up to
 sacred ambiance provide relief to families, from those with modest means
 to those seeking a divine setting for these sacred rites.`,
     ],
+  },
+];
+
+// photoes
+export const Gallery: IPhotoSagar[] = [
+  {
+    url: `${TempleLook.src}`,
+  },
+  {
+    url: `${Celebration.src}`,
+  },
+  {
+    url: `${Devotee.src}`,
+  },
+  {
+    url: `${ShreeRamBanner.src}`,
   },
 ];
