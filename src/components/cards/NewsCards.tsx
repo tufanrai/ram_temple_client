@@ -7,7 +7,7 @@ interface IProps {
 
 const NewsCards = (props: IProps) => {
   return (
-    <div className="w-full max-w-60 grid grid-row-2 h-65 bg-white overflow-hidden">
+    <div className="w-full max-w-60 border-1 border-green-950 grid grid-row-2 h-65 bg-white overflow-hidden">
       <div className="w-full h-40 overflow-hidden row-span-3">
         <img
           // @ts-ignore

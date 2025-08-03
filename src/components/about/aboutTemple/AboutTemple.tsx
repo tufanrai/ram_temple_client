@@ -16,7 +16,7 @@ const AboutTemple = () => {
       <div className="w-full h-screen overflow-y-auto bg-black/45 sm:bg-linear-to-r sm:from-black/75 sm:to-white/0">
         {AboutRamTemple.map((value, index) => (
           <div key={index} className="mb-8">
-            <h1 className="w-full px-8 py-2 font-bold text-lg mt-16 bg-red-600 text-white max-w-280 sm:ml-8 sm:px-16">
+            <h1 className="w-full px-8 py-2 font-bold text-lg mt-16 bg-linear-to-r italic from-green-800 to-green-950 text-white max-w-280 sm:ml-8 sm:px-16">
               {value.title}
             </h1>
             <div className="w-full max-w-150 mt-4 sm:mt-8 sm:max-w-240 px-12 sm:px-16">
@@ -37,14 +37,3 @@ const AboutTemple = () => {
 };
 
 export default AboutTemple;
-
-{
-  /* <h1 >
-              {value.title}
-            </h1>
-            <div >
-              {value.paragraphs.map((paragraph, index) => (
-                
-              ))}
-            </div> */
-}

@@ -25,7 +25,7 @@ const HeaderPage = () => {
   };
 
   return (
-    <div className=" w-full bg-red-700">
+    <div className=" w-full bg-linear-65 from-green-800 to-green-950">
       <div className="w-full hidden sm:flex items-center justify-center">
         <ul className="max-w-[1280px] w-full h-20 flex items-center justify-center gap-4 py-4 px-16">
           <li className="mr-auto">
@@ -50,7 +50,7 @@ const HeaderPage = () => {
             <NavigationMenu>
               <NavigationMenuList>
                 <NavigationMenuItem>
-                  <NavigationMenuTrigger className="bg-red-700 text-white">
+                  <NavigationMenuTrigger className="bg-green-800 text-white">
                     About Us
                   </NavigationMenuTrigger>
                   <NavigationMenuContent>

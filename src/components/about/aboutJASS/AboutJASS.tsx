@@ -20,7 +20,7 @@ const AboutJASS = () => {
             className="w-full h-screen flex flex-col items-center justify-start overflow-hidden overflow-y-auto bg-black/45 sm:bg-linear-to-r sm:from-black/75 sm:to-white/0 sm:px-16"
             key={index}
           >
-            <h1 className="w-full px-8 py-2 font-bold text-lg mt-16 bg-red-600 text-white max-w-280 sm:text-center sm:ml-8 sm:px-16">
+            <h1 className="w-full px-8 py-2 font-bold text-lg mt-16 bg-linear-to-r italic from-green-800 to-green-950 text-white max-w-280 sm:text-center sm:ml-8 sm:px-16">
               {value.title}
             </h1>
             <div className="flex items-end justify-start gap-1 ml-8 mt-8">
