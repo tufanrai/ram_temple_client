@@ -20,7 +20,7 @@ const FooterPage = () => {
           <strong>shreramchandra@gmail.com</strong>
         </div>
       </div>
-      <div className="p-1 border-[1px] border-yellow-500/55 w-14 h-14 sm:w-24 sm:h-24">
+      <div className="p-1 w-14 h-14 sm:w-24 sm:h-24">
         <img
           src={Logo.src}
           width={"100%"}

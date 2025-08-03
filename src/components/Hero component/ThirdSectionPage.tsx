@@ -5,7 +5,7 @@ import Link from "next/link";
 
 const ThirdSectionPage = () => {
   return (
-    <div className="w-full">
+    <div className="max-w-[1280px] w-full">
       <div
         style={{
           backgroundImage: `url('${TempleLook.src}')`,
@@ -25,7 +25,7 @@ const ThirdSectionPage = () => {
               {AboutRamTemple.at(0)?.paragraphs.at(0)}
             </p>
             <Link href="/about/about-temple">
-              <button className="font-medium sm:w-100 w-full text-green-800 hover:text-white sm:text-md text-sm border-2 border-green-800 ease duration-300 cursor-pointer hover:bg-green-800 hover:shadow-red-800 px-5 py-1 mt-8 ">
+              <button className="font-medium sm:w-100 w-full text-white hover:text-black hover:shadow-md hover:shadow-white sm:text-lg text-sm border-2 border-white ease duration-300 cursor-pointer hover:bg-white hover:shadow-red-800 px-5 py-1 mt-8 ">
                 Learn More
               </button>
             </Link>

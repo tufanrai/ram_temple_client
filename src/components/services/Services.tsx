@@ -16,7 +16,7 @@ const Services = () => {
             <h3 className="w-full px-8 py-1 font-semibold text-lg mt-4 bg-linear-to-r from-amber-800 to-amber-900 italic text-white">
               {value.title}
             </h3>
-            <div className="max-w-1000 w-full px-8 py-4">
+            <div className="max-w-1000 w-full px-8 sm:px-24 py-4">
               {value.paragraph.map((pg, index) => (
                 <p
                   className="font-medium text-sm/5 sm:text-md/5 text-white/75 sm:text-white py-2"

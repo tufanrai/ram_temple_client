@@ -1,6 +1,5 @@
 import React from "react";
 import { AboutJass } from "@/src/contents/StaticContents";
-import Chairperson from "@/public/Chairperson.png";
 import ShreeRamBanner from "@/public/shreeRamChandrarBanner.jpg";
 
 const AboutJASS = () => {

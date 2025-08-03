@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import Services from "../services/Services";
-import Temple from "@/public/TempleLook.jpg";
+import Temple from "@/public/shreeRamChandrarBanner.jpg";
 
 const ServicePage = () => {
   return (
