@@ -15,7 +15,7 @@ const HeroPage = () => {
         <Carousel autoSlide slides={slides} />
       </div>
       <SecondSectionPage />
-      <ThirdSectionPage />
+      {/* <ThirdSectionPage /> */}
     </div>
   );
 };
