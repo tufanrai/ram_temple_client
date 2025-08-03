@@ -14,13 +14,13 @@ const FooterPage = () => {
           <FaTiktok className="hover:text-slate-500 cursor-pointer ease duration-300" />
         </div>
         <hr className="w-30 bg-red-500 rotate-90" />
-        <div className="w-full text-white flex flex-col items-start justify-center gep-3 font-light text-sm">
+        <div className="w-full text-white flex flex-col items-start justify-center gep-3 font-light text-xs sm:text-sm">
           <strong>+01-4598526</strong>
           <strong>Batisputali, Kathmandu</strong>
           <strong>shreramchandra@gmail.com</strong>
         </div>
       </div>
-      <div className="p-1 border-[1px] border-yellow-500/55 w-24 h-24">
+      <div className="p-1 border-[1px] border-yellow-500/55 w-14 h-14 sm:w-24 sm:h-24">
         <img
           src={Logo.src}
           width={"100%"}
