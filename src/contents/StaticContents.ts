@@ -25,6 +25,13 @@ interface IPhotoSagar {
   url: string;
 }
 
+interface IEvents {
+  image: string;
+  title: string;
+  sub_title: string;
+  paragraph: string[];
+}
+
 // About Temple
 export const AboutRamTemple: IAboutTemple[] = [
   {
@@ -207,5 +214,17 @@ export const Gallery: IPhotoSagar[] = [
   },
   {
     url: `${ShreeRamBanner.src}`,
+  },
+];
+
+// Events
+export const Events: IEvents[] = [
+  {
+    image: "",
+    title: "Balram Purnima",
+    sub_title: "The day when lrod Balarama decended to earth",
+    paragraph: [
+      "On this day our lord Balarama descended to earth to support lord Krishna.",
+    ],
   },
 ];

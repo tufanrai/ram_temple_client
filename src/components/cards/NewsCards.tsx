@@ -2,7 +2,9 @@ import React from "react";
 
 interface IProps {
   image: string;
-  description: string;
+  title: string;
+  sub_title: string;
+  description: string[];
 }
 
 const NewsCards = (props: IProps) => {
@@ -17,10 +19,9 @@ const NewsCards = (props: IProps) => {
           alt=""
         />
       </div>
-      <div className="w-full h-30 row-span-2 border">
-        <p className="w-full px-4 py-4 text-start font-light text-black/55 text-sm">
-          {props.description}
-        </p>
+      <div className="w-full h-30 row-span-2 border p-4">
+        <h3 className="font-medium text-md text-black">{props.title}</h3>
+        <h6 className="font-light text-sm text-black/45">{props.sub_title}</h6>
       </div>
     </div>
   );
