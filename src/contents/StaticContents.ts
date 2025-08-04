@@ -3,6 +3,7 @@ import TempleLook from "@/public/TempleLook.jpg";
 import ShreeRamBanner from "@/public/shreeRamChandrarBanner.jpg";
 import Devotee from "@/public/DeviteesOfShreeRam.jpg";
 import Celebration from "@/public/ShreeRamDevotee2.jpg";
+import Dashain from "@/public/Dashain.jpg";
 
 interface IAboutTemple {
   title: string;
@@ -32,6 +33,11 @@ interface IEvents {
   paragraph: string[];
 }
 
+interface IFestivals {
+  image: string;
+  title: string;
+  paragraph: string[];
+}
 // About Temple
 export const AboutRamTemple: IAboutTemple[] = [
   {
@@ -225,6 +231,19 @@ export const Events: IEvents[] = [
     sub_title: "The day when lrod Balarama decended to earth",
     paragraph: [
       "On this day our lord Balarama descended to earth to support lord Krishna.",
+    ],
+  },
+];
+
+// Festivals
+export const Festivals: IFestivals[] = [
+  {
+    image: `${Dashain.src}`,
+    title: "Dashain",
+    paragraph: [
+      "Dashain is the most significant and widely celebrated festival in Nepal, a vibrant and profound event that unites families and communities across the nation and among the global Hindu diaspora. This fifteen-day-long festival is a powerful testament to the triumph of good over evil, a theme that lies at the heart of Hindu mythology. The festival's central narrative revolves around the epic battle between the goddess Durga and the formidable buffalo demon, Mahishasura. For nine days and nights, the fierce goddess, wielding the powers of all the gods, fought tirelessly until she finally emerged victorious on the tenth day. This monumental victory symbolizes the eternal struggle of righteousness against malevolence and serves as a powerful reminder of the divine feminine's ability to protect the innocent and restore balance to the world. Dashain is not merely a celebration but a spiritual journey, a time for introspection, purification, and the reaffirmation of one's faith and cultural identity.",
+      `The celebration of Dashain is a rich tapestry of rituals and customs, each day carrying its own unique significance. The festival begins with Ghatasthapana on the first day, where a kalash (a holy water pot) is filled with holy water and placed in a consecrated room. Barley seeds are sown around it, and the resulting sprouts, known as "Jamara," are meticulously tended to throughout the festival, symbolizing fertility and prosperity. The subsequent nine days, known as Navaratri, are dedicated to the worship of the nine different forms of the goddess Durga, each representing a distinct aspect of her divine power. Devotees visit various temples and "Shakti Peethas," offering prayers and performing pujas to seek her blessings. The atmosphere during this period is electric, filled with the sounds of devotional music, the aroma of incense, and the collective fervor of the faithful.`,
+      `The culmination of Dashain arrives on the tenth day, Bijaya Dashami, which is considered the most important day of the festival. This day marks the official victory of Durga over Mahishasura. It is a day dedicated to family and community, where people visit their elders to receive blessings. A traditional Tika, a mixture of rice, yogurt, and red vermilion powder, is applied to the foreheads of younger family members by their elders. This act is not just a ritual but a sacred transfer of blessings, wisdom, and good fortune from one generation to the next. The Tika is often accompanied by the yellow sprouts of Jamara, which are tucked behind the ears, further symbolizing prosperity and a connection to the earth. The festivities continue with elaborate feasts featuring traditional dishes, the flying of colorful kites that fill the autumn sky, and the joyful laughter of children and adults alike enjoying traditional swings known as "Ping." This blend of spiritual reverence and joyous celebration makes Dashain a truly unforgettable experience, a time when the entire nation comes together to celebrate life, family, and the enduring victory of good.`,
     ],
   },
 ];

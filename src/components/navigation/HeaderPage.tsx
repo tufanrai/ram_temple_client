@@ -61,7 +61,7 @@ const HeaderPage = () => {
                       Founder
                     </NavigationMenuLink>
                     <NavigationMenuLink href="/about/JASS">
-                      JASS
+                      Leadership
                     </NavigationMenuLink>
                   </NavigationMenuContent>
                 </NavigationMenuItem>
@@ -74,6 +74,14 @@ const HeaderPage = () => {
               href={"/services"}
             >
               Services
+            </Link>
+          </li>
+          <li className="font-medium text-white text-sm cursor-pointer">
+            <Link
+              className="w-full px-6 py-2.5 hover:text-black hover:bg-white ease duration-300 rounded-lg hover"
+              href={"/festivals"}
+            >
+              Festivals
             </Link>
           </li>
           <li className="font-medium text-white text-sm cursor-pointer">
@@ -155,7 +163,7 @@ const HeaderPage = () => {
                             onClick={() => tabClosed()}
                             href="/about/JASS"
                           >
-                            JASS
+                            Leadership
                           </NavigationMenuLink>
                         </NavigationMenuContent>
                       </NavigationMenuItem>
@@ -168,6 +176,14 @@ const HeaderPage = () => {
                     className="text-light text-sm px-5 py-2 hover:bg-black ease duration-300 cursor-pointer"
                   >
                     Services
+                  </li>
+                </Link>
+                <Link className="w-full " href={"/festivals"}>
+                  <li
+                    onClick={() => tabClosed()}
+                    className="text-light text-sm px-5 py-2 hover:bg-black ease duration-300 cursor-pointer"
+                  >
+                    Festivals
                   </li>
                 </Link>
                 <Link className="w-full " href={"/query"}>

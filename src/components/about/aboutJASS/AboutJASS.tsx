@@ -16,7 +16,7 @@ const AboutJASS = () => {
       >
         {AboutJass.map((value, index) => (
           <div
-            className="w-full h-screen flex flex-col items-center justify-start overflow-hidden overflow-y-auto bg-black/45 sm:bg-linear-to-r sm:from-black/75 sm:to-white/0 sm:px-16"
+            className="w-full h-screen flex flex-col items-center justify-start overflow-hidden overflow-y-auto bg-black/64 sm:bg-linear-to-r sm:from-black/75 sm:to-white/0 sm:px-16"
             key={index}
           >
             <h1 className="w-full px-8 py-2 font-bold text-lg mt-16 bg-linear-to-r italic from-green-800 to-green-950 text-white max-w-280 sm:text-center sm:ml-8 sm:px-16">
@@ -36,7 +36,7 @@ const AboutJASS = () => {
             <div className="w-full max-w-150 mt-4 sm:mt-8 sm:max-w-240 px-12 sm:px-16">
               {value.paragraphs?.map((paragraph, index) => (
                 <p
-                  className="font-medium text-sm/5 sm:text-md/5 text-white/75 sm:text-white py-2"
+                  className="font-medium text-sm/5 sm:text-md/5 text-white/80 py-2"
                   key={index}
                 >
                   {paragraph}

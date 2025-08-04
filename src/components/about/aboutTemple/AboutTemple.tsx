@@ -13,7 +13,7 @@ const AboutTemple = () => {
       }}
       className="w-full h-screen overflow-hidden"
     >
-      <div className="w-full h-screen overflow-y-auto bg-black/45 flex flex-col items-center justify-start sm:bg-linear-to-r sm:from-black/75 sm:to-white/0">
+      <div className="w-full h-screen overflow-y-auto bg-black/64 flex flex-col items-center justify-start sm:bg-linear-to-r sm:from-black/75 sm:to-white/0">
         {AboutRamTemple.map((value, index) => (
           <div key={index} className="max-w-[1100px] w-full">
             <h1 className="w-full px-8 py-2 font-bold text-lg mt-16 bg-linear-to-r italic from-green-800 to-green-950 text-white max-w-280 sm:px-16">
