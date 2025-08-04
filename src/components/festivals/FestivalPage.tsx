@@ -29,12 +29,9 @@ const FestivalPage = () => {
                   backgroundPosition: "center",
                   backgroundRepeat: "no-repeat",
                 }}
-                className="w-full h-26 px-4 py-2 overflow-hidden rounded-md"
+                className="w-full h-26 px-4 py-2 overflow-hidden rounded-md flex items-center justify-center"
               >
                 <h3 className="font-bold text-lg text-white">{value.title}</h3>
-                <p className="font-medium text-sm text-white">
-                  {value.paragraph.at(0)?.split("")}
-                </p>
               </div>
             </div>
           ))}
