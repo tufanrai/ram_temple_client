@@ -22,7 +22,7 @@ const FestivalPage = () => {
               onClick={() => SaveFestivalId(index)}
               key={index}
             >
-              <div className="max-w-124 h-26 px-4 py-1 overflow-hidden">
+              <div className="max-w-[25%] h-26 px-4 py-1 overflow-hidden">
                 <h3 className="font-bold text-lg">{value.title}</h3>
                 <p className="font-light text-sm text-slate-600/64">
                   {value.paragraph.at(0)?.split("")}
