@@ -18,16 +18,10 @@ const FestivalPage = () => {
         <div className="w-full p-4">
           {Festivals.map((value, index) => (
             <div
-              className="w-full flex items-center justify-between cursor-pointer border-b-1 border-slate-500 mt-4 py-2"
+              className="w-full cursor-pointer border-b-1 border-slate-500 mt-4 py-2"
               onClick={() => SaveFestivalId(index)}
               key={index}
             >
-              <div className="max-w-[45%] h-26 px-4 py-1 overflow-hidden">
-                <h3 className="font-bold text-lg">{value.title}</h3>
-                <p className="font-light text-sm text-slate-600/64">
-                  {value.paragraph.at(0)?.split("")}
-                </p>
-              </div>
               <div
                 style={{
                   backgroundImage: `url('${value.image}')`,
@@ -35,8 +29,13 @@ const FestivalPage = () => {
                   backgroundPosition: "center",
                   backgroundRepeat: "no-repeat",
                 }}
-                className="max-w-[30%] max-h-34 w-full h-screen border rounded-md overflow-hidden"
-              ></div>
+                className="w-full h-26 px-4 py-2 overflow-hidden rounded-md"
+              >
+                <h3 className="font-bold text-lg text-white">{value.title}</h3>
+                <p className="font-medium text-sm text-white">
+                  {value.paragraph.at(0)?.split("")}
+                </p>
+              </div>
             </div>
           ))}
         </div>
