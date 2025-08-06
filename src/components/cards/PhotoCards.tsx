@@ -13,7 +13,7 @@ const PhotoCards = () => {
             backgroundPosition: "center",
             backgroundRepeat: "no-repeat",
           }}
-          className="sm:max-w-90 sm:max-h-78 w-full h-56 sm:h-screen m-2 shadow shadow-xl/75 shadow-green-700 rounded-md overflow-hidden"
+          className="sm:max-w-90 sm:max-h-78 w-full h-56 sm:h-screen m-2 shadow shadow-xl/75 shadow-green-700 sm:rounded-md sm:overflow-hidden"
         ></div>
       ))}
     </>
