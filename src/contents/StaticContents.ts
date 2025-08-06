@@ -5,6 +5,7 @@ import Devotee from "@/public/DeviteesOfShreeRam.jpg";
 import Celebration from "@/public/ShreeRamDevotee2.jpg";
 import Dashain from "@/public/Dashain.jpg";
 import KrishnaJanmastami from "@/public/KrishnaJanmastami.jpg";
+import Founder from "@/public/Founder.png";
 
 interface IAboutTemple {
   title: string;
@@ -39,6 +40,14 @@ interface IFestivals {
   title: string;
   paragraph: string[];
 }
+
+interface IAboutFounder {
+  image: string;
+  name: string;
+  title: string;
+  paragraphs: string[];
+}
+
 // About Temple
 export const AboutRamTemple: IAboutTemple[] = [
   {
@@ -257,3 +266,17 @@ export const Festivals: IFestivals[] = [
     ],
   },
 ];
+
+// about the founder of shree ramchandra temple, batisputali
+export const FounderOfTemple: IAboutFounder = {
+  image: `${Founder.src}`,
+  name: "Commander Cornel Sanak Singh Tandon",
+  title: "Founder of Shree RamChandra Temple",
+  paragraphs: [
+    `Commander Cornel Sanak Singh Tandon remains an enigmatic yet influential figure in Nepal’s modern history, known for his military service and his contributions to Hindu religious heritage. Though historical records are sparse, his legacy endures through the Shree Ramchandra Mandir in Batisputali, Kathmandu, a temple he either founded or significantly renovated in the early 20th century. His life reflects a unique blend of martial discipline and spiritual devotion, embodying the ideals of a Kshatriya (warrior) and a Bhakta (devotee).`,
+    `Sanak Singh Tandon’s title—"Commander Cornel" (likely a variation of Colonel)—suggests he held a high-ranking position, possibly in the British Indian Army or the Nepalese military during the early 1900s. This was a turbulent era marked by World Wars, the decline of the Rana regime in Nepal, and India’s struggle for independence.`,
+    `If he served under British India, he may have been part of the Sikh Regiment (given his name) or the Gurkha regiments, which had many Nepali and North Indian officers. Alternatively, if his service was in Nepal, he might have been associated with the Nepalese Army during the Rana dynasty, a period when many aristocratic families held military and administrative roles. His exact campaigns remain undocumented, but his rank indicates leadership in significant conflicts of the time.`,
+    `Beyond his military life, Tandon’s enduring contribution was his association with Shree Ramchandra Mandir in Batisputali. He build the temple as an act of devotion, as a result the temple became a spiritual landmark in Kathmandu, reflecting Tandon’s dedication to Sanatana Dharma (eternal Hindu traditions). His efforts aligned with a broader movement in Nepal to uphold Hindu culture during a time of political and social change.`,
+    `Commander Cornel Sanak Singh Tandon symbolizes a bridge between martial duty and spiritual service. His temple in Batisputali stands not just as a place of worship, but as a testament to a man who balanced the sword and the scripture. While historians must piece together more of his story, his impact on Nepal’s religious landscape remains undeniable. His life reminds us that true leadership extends beyond battlefields—it lives on in the cultural and spiritual foundations we preserve for future generations.`,
+  ],
+};
