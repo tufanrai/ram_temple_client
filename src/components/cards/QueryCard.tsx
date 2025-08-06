@@ -43,13 +43,13 @@ const QueryCard = () => {
           <label className="font-light text-white text-md">Full name</label>
           <input
             type="text"
-            {...register("full_name")}
+            {...register("name")}
             className="border border-white px-4 py-1 font-thin text-sm text-white focus:outline-none rounded-md"
             placeholder="Jhon Dhoe"
           />
-          {errors && errors.full_name ? (
+          {errors && errors.name ? (
             <p className="w-full text-sm font-light text-red-500">
-              {errors.full_name.message}
+              {errors.name.message}
             </p>
           ) : (
             ""
@@ -92,12 +92,12 @@ const QueryCard = () => {
           <textarea
             rows={5}
             cols={5}
-            {...register("query")}
+            {...register("message")}
             className="border border-white px-4 py-1 focus:outline-none rounded-md text-sm text-white font-thin"
           ></textarea>
-          {errors && errors.query ? (
+          {errors && errors.message ? (
             <p className="w-full text-sm font-light text-red-500">
-              {errors.query.message}
+              {errors.message.message}
             </p>
           ) : (
             ""
