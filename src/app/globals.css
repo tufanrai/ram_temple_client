@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Slabo+13px&family=Trykker&display=swap');
 @import "tailwindcss";
 @import "tw-animate-css";
 
@@ -77,7 +77,7 @@
   --sidebar-accent-foreground: oklch(0.205 0 0);
   --sidebar-border: oklch(0.922 0 0);
   --sidebar-ring: oklch(0.708 0 0);
-  --Font-fam: Noto-Serif
+  --Font-fam: Noto-Serif, Slabo-13px, Trykker, Roboto
 }
 
 .dark {
