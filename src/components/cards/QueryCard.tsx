@@ -2,7 +2,7 @@
 import React from "react";
 import { QuerySchema } from "../Schema/QuerySchema";
 import { yupResolver } from "@hookform/resolvers/yup";
-import { SubmitHandler, useForm } from "react-hook-form";
+import { useForm } from "react-hook-form";
 import { useMutation } from "@tanstack/react-query";
 import toast from "react-hot-toast";
 import { IQuery } from "../interface/QueryINterface";
@@ -10,7 +10,7 @@ import { PostQuery } from "@/src/api/QueryData";
 
 const QueryCard = () => {
   // data send to backend
-  const mutation = useMutation({
+  const { mutate, isPending } = useMutation({
     mutationFn: PostQuery,
     mutationKey: ["QueryFill"],
     onSuccess: (data) => {
@@ -34,7 +34,7 @@ const QueryCard = () => {
   });
 
   const SubmitForm = (data: IQuery) => {
-    mutation.mutate(data);
+    mutate(data);
   };
   return (
     <form onSubmit={handleSubmit(SubmitForm)}>
@@ -106,7 +106,10 @@ const QueryCard = () => {
         <div className="w-full">
           <button
             type="submit"
-            className="w-full px-5 py-2 rounded-sm text-white bg-red-600 cursor-pointer hover:bg-red-700 ease duration-300"
+            disabled={isPending}
+            className={`w-full px-5 py-2 rounded-sm text-white bg-red-600 hover:bg-red-700 ease duration-300 ${
+              isPending ? "cursor-not-allowed" : "cursor-pointer"
+            }`}
           >
             Send
           </button>
