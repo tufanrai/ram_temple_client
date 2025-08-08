@@ -14,7 +14,7 @@ const AboutFounder = () => {
         }}
         className="w-full h-screen flex"
       >
-        <div className="w-full h-auto flex flex-col items-center justify-start bg-black/64 sm:bg-linear-to-r sm:from-black/75 sm:to-white/0 sm:px-16">
+        <div className="w-full h-screen overflow-y-auto flex flex-col items-center justify-start bg-black/64 sm:bg-linear-to-r sm:from-black/75 sm:to-white/0 sm:px-16">
           <h1 className="w-full px-8 py-2 font-bold text-lg mt-16 bg-linear-to-r italic from-green-800 to-green-950 text-white max-w-280 sm:text-center sm:ml-8 sm:px-16">
             {FounderOfTemple.title}
           </h1>

@@ -12,7 +12,7 @@ const AboutJASS = () => {
           backgroundBlendMode: "overlay",
           backgroundRepeat: "no-repeat",
         }}
-        className="w-full h-auto flex"
+        className="w-full h-screen flex"
       >
         {AboutJass.map((value, index) => (
           <div
