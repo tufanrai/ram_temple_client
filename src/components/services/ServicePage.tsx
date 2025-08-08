@@ -12,9 +12,9 @@ const ServicePage = () => {
         backgroundSize: "cover",
         backgroundRepeat: "no-repeat",
       }}
-      className="w-full h-screen flex items-center justify-center"
+      className="w-full h-auto flex items-center justify-center"
     >
-      <div className="bg-black/45 sm:bg-linear-to-r sm:from-black/75 sm:to-white/0 w-full h-screen overflow-x-hidden flex flex-col items-center justify-start gap-1">
+      <div className="bg-black/45 sm:bg-linear-to-r sm:from-black/75 sm:to-white/0 w-full h-auto flex flex-col items-center justify-start gap-1">
         <Services />
       </div>
     </div>
