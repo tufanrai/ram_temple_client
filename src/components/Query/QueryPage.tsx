@@ -2,14 +2,14 @@
 import React from "react";
 import QueryCard from "../cards/QueryCard";
 import MediaLinks from "./MediaLinks";
-import Logo from "@/public/Logo.png";
+import TempleLookBanner from "@/public/TempleLook.jpg";
 
 const QueryPage = () => {
   return (
     <div className="w-full h-screen flex items-center justify-center">
       <div
         style={{
-          backgroundImage: `url('${Logo.src}')`,
+          backgroundImage: `url('${TempleLookBanner.src}')`,
           backgroundRepeat: "no-repeat",
           backgroundPosition: "center",
           backgroundSize: "cover",

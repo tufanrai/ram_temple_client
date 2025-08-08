@@ -15,9 +15,9 @@ const FestivalDescription = () => {
         backgroundPosition: "left",
         backgroundRepeat: "no-repeat",
       }}
-      className="w-full h-auto flex justify-center"
+      className="w-full h-screen"
     >
-      <div className="w-full h-auto bg-black/56 sm:bg-linear-to-r from-black/36 to-white/0">
+      <div className="w-full h-screen bg-black/56 sm:bg-linear-to-r from-black/36 to-white/0 flex justify-center">
         <div className="max-w-[1280px] w-full h-auto px-4 sm:px-16 py-4 sm:py-8">
           <h3 className="w-full px-8 py-2 font-bold text-lg mt-16 bg-linear-to-r italic from-green-800 to-green-950 text-white max-w-280 sm:px-16 mb-8 sm:mb-12">
             {Festivals.at(parseInt(id ?? ""))?.title}
