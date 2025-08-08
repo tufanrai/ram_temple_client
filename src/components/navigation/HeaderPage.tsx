@@ -57,9 +57,6 @@ const HeaderPage = () => {
                     <NavigationMenuLink href="/about/about-temple">
                       Shree Ram Temple
                     </NavigationMenuLink>
-                    <NavigationMenuLink href="/about/founder">
-                      Founder
-                    </NavigationMenuLink>
                     <NavigationMenuLink href="/about/JASS">
                       Leadership
                     </NavigationMenuLink>
@@ -67,6 +64,14 @@ const HeaderPage = () => {
                 </NavigationMenuItem>
               </NavigationMenuList>
             </NavigationMenu>
+          </li>
+          <li className="font-medium text-white text-sm cursor-pointer">
+            <Link
+              className="w-full px-6 py-2.5 hover:text-black hover:bg-white ease duration-300 rounded-lg hover"
+              href={"/about/founder"}
+            >
+              Founder
+            </Link>
           </li>
           <li className="font-medium text-white text-sm cursor-pointer">
             <Link
