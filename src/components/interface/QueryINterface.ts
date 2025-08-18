@@ -1,6 +1,6 @@
 export interface IQuery {
-  name: string;
+  full_name: string;
   email: string;
-  contactNumber: number;
-  message: string;
+  phone_number: number;
+  description: string;
 }

@@ -1,14 +1,14 @@
 import * as yup from "yup";
 
 export const QuerySchema = yup.object({
-  name: yup.string().required("please enter your full name"),
+  full_name: yup.string().required("please enter your full name"),
   email: yup
     .string()
     .email("please enter a valid email")
     .required("please enter your email"),
-  contactNumber: yup
+  phone_number: yup
     .number()
     .min(10, "your contact number must contain 10 degits.")
     .required("please enter your phone number"),
-  message: yup.string().required("please describe your queries"),
+  description: yup.string().required("please describe your queries"),
 });

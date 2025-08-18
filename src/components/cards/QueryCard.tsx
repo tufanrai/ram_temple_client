@@ -43,13 +43,13 @@ const QueryCard = () => {
           <label className="font-light text-white text-md">Full name</label>
           <input
             type="text"
-            {...register("name")}
+            {...register("full_name")}
             className="border border-white px-4 py-1 font-thin text-sm text-white focus:outline-none rounded-md"
             placeholder="Jhon Dhoe"
           />
-          {errors && errors.name ? (
+          {errors && errors.full_name ? (
             <p className="w-full text-sm font-light text-red-500">
-              {errors.name.message}
+              {errors.full_name.message}
             </p>
           ) : (
             ""
@@ -75,13 +75,13 @@ const QueryCard = () => {
           <label className="font-light text-white text-md">Phone number</label>
           <input
             type="text"
-            {...register("contactNumber")}
+            {...register("phone_number")}
             className="border border-white px-4 py-1 font-thin text-sm text-white focus:outline-none rounded-md"
             placeholder="9712345678"
           />
-          {errors && errors.contactNumber ? (
+          {errors && errors.phone_number ? (
             <p className="w-full text-sm font-light text-red-500">
-              {errors.contactNumber.message}
+              {errors.phone_number.message}
             </p>
           ) : (
             ""
@@ -92,12 +92,12 @@ const QueryCard = () => {
           <textarea
             rows={5}
             cols={5}
-            {...register("message")}
+            {...register("description")}
             className="border border-white px-4 py-1 focus:outline-none rounded-md text-sm text-white font-thin"
           ></textarea>
-          {errors && errors.message ? (
+          {errors && errors.description ? (
             <p className="w-full text-sm font-light text-red-500">
-              {errors.message.message}
+              {errors.description.message}
             </p>
           ) : (
             ""
