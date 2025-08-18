@@ -234,13 +234,13 @@ export const Gallery: IPhotoSagar[] = [
 
 // Events
 export const Events: IEvents[] = [
-  {
-    image: "",
-    title: "Balram Purnima",
-    paragraph: [
-      "On this day our lord Balarama descended to earth to support lord Krishna.",
-    ],
-  },
+  // {
+  //   image: `${Dashain.src}`,
+  //   title: "Balram Purnima",
+  //   paragraph: [
+  //     "On this day our lord Balarama descended to earth to support lord Krishna.",
+  //   ],
+  // },
 ];
 
 // Festivals

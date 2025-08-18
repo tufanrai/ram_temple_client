@@ -1,4 +1,5 @@
-import React from "react";
+"use client";
+import React, { useEffect, useState } from "react";
 import QueryPage from "../Query/QueryPage";
 import NewsCards from "../cards/NewsCards";
 import { Timeline } from "../DarshanTiming/timeline";
@@ -11,6 +12,12 @@ import ShreeRamBanner from "@/public/shreeRamChandrarBanner.jpg";
 import { Festivals } from "@/src/contents/StaticContents";
 
 const SecondSectionPage = () => {
+  const [events, setEvents] = useState(false);
+
+  useEffect(() => {
+    typeof Events.at(0) == "undefined" ? setEvents(true) : setEvents(false);
+  }, []);
+  console.log(events);
   return (
     <div className="max-w-[1280px] w-full border-2 gap-2 bg-white">
       <div className=" w-full px-8 py-4 border-r-2">
@@ -65,14 +72,27 @@ const SecondSectionPage = () => {
             What's new?
           </h1>
           <div className="w-full flex items-center justify-evenly mt-8 gap-2">
-            {Events.map((value, index) => (
-              <NewsCards
-                key={index}
-                image={value.image}
-                title={value.title}
-                description={value.paragraph}
-              />
-            ))}
+            {events ? (
+              <div className="w-full flex flex-col items-center justify-center">
+                <h1 className="w-full text-center font-bold text-4xl text-black italic">
+                  404
+                </h1>
+                <p className="w-full text-center font-medium text-sm">
+                  No events are being organised
+                </p>
+              </div>
+            ) : (
+              <>
+                {Events.map((value, index) => (
+                  <NewsCards
+                    key={index}
+                    image={value.image}
+                    title={value.title}
+                    description={value.paragraph}
+                  />
+                ))}
+              </>
+            )}
           </div>
         </div>
       </div>

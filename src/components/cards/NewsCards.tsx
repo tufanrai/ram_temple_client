@@ -8,13 +8,12 @@ interface IProps {
 
 const NewsCards = (props: IProps) => {
   return (
-    <div className="w-full max-w-60 border-1 border-green-950 grid grid-row-2 h-65 bg-white overflow-hidden">
+    <div className="w-full max-w-60 border-1 border-green-900/50 grid grid-row-2 h-65 bg-white overflow-hidden rounded-lg">
       <div className="w-full h-40 overflow-hidden row-span-3">
         <img
           src={`${props.image}`}
           width={"100%"}
           className=" object-fill scale-102 hover:scale-110 ease duration-300"
-          alt=""
         />
       </div>
       <div className="w-full h-30 row-span-2 border p-4">
