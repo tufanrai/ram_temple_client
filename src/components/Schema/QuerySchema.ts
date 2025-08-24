@@ -7,7 +7,7 @@ export const QuerySchema = yup.object({
     .email("please enter a valid email")
     .required("please enter your email"),
   phone_number: yup
-    .number()
+    .string()
     .min(10, "your contact number must contain 10 degits.")
     .required("please enter your phone number"),
   description: yup.string().required("please describe your queries"),
