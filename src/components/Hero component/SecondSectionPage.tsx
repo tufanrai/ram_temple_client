@@ -73,8 +73,8 @@ const SecondSectionPage = () => {
           </h1>
           <div className="w-full flex items-center justify-evenly mt-8 gap-2">
             {events ? (
-              <div className="w-full flex flex-col items-center justify-center">
-                <h1 className="w-full text-center font-bold text-4xl text-black italic">
+              <div className="w-full flex flex-col items-center justify-center text-slate-800/32">
+                <h1 className="w-full text-center font-bold text-4xl italic">
                   404
                 </h1>
                 <p className="w-full text-center font-medium text-sm">
@@ -89,6 +89,7 @@ const SecondSectionPage = () => {
                     image={value.image}
                     title={value.title}
                     description={value.paragraph}
+                    link=""
                   />
                 ))}
               </>
@@ -139,6 +140,7 @@ const SecondSectionPage = () => {
                 image={value.image}
                 title={value.title}
                 description={value.paragraph}
+                link={index.toString()}
               />
             ))}
           </div>

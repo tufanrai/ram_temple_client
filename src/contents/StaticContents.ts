@@ -38,6 +38,7 @@ interface IFestivals {
   image: string;
   title: string;
   paragraph: string[];
+  link: string;
 }
 
 interface IAboutFounder {
@@ -253,6 +254,7 @@ export const Festivals: IFestivals[] = [
       `The celebration of Dashain is a rich tapestry of rituals and customs, each day carrying its own unique significance. The festival begins with Ghatasthapana on the first day, where a kalash (a holy water pot) is filled with holy water and placed in a consecrated room. Barley seeds are sown around it, and the resulting sprouts, known as "Jamara," are meticulously tended to throughout the festival, symbolizing fertility and prosperity. The subsequent nine days, known as Navaratri, are dedicated to the worship of the nine different forms of the goddess Durga, each representing a distinct aspect of her divine power. Devotees visit various temples and "Shakti Peethas," offering prayers and performing pujas to seek her blessings. The atmosphere during this period is electric, filled with the sounds of devotional music, the aroma of incense, and the collective fervor of the faithful.`,
       `The culmination of Dashain arrives on the tenth day, Bijaya Dashami, which is considered the most important day of the festival. This day marks the official victory of Durga over Mahishasura. It is a day dedicated to family and community, where people visit their elders to receive blessings. A traditional Tika, a mixture of rice, yogurt, and red vermilion powder, is applied to the foreheads of younger family members by their elders. This act is not just a ritual but a sacred transfer of blessings, wisdom, and good fortune from one generation to the next. The Tika is often accompanied by the yellow sprouts of Jamara, which are tucked behind the ears, further symbolizing prosperity and a connection to the earth. The festivities continue with elaborate feasts featuring traditional dishes, the flying of colorful kites that fill the autumn sky, and the joyful laughter of children and adults alike enjoying traditional swings known as "Ping." This blend of spiritual reverence and joyous celebration makes Dashain a truly unforgettable experience, a time when the entire nation comes together to celebrate life, family, and the enduring victory of good.`,
     ],
+    link: "/festivals/0",
   },
   {
     image: `${KrishnaJanmastami.src}`,
@@ -262,6 +264,7 @@ export const Festivals: IFestivals[] = [
       `So, why should we, as Vaishnavas, celebrate this auspicious day? We celebrate it to express our immense love and devotion for our beloved Shyamsundar. By hearing and chanting about His divine pastimes, we purify our hearts and deepen our connection with Him. It is an opportunity to immerse ourselves in the blissful rasa of His lila, to remember His childhood antics in Vrindavan, His enchanting flute, and His unwavering protection of His devotees. Observing Janmashtami is a way to actively participate in the joy of His divine appearance and to receive His boundless blessings. The scriptures tell us that by observing this day, we become free from the sinful reactions of many lives and are blessed with good health, wealth, and spiritual progress. It is a day to renew our vows of service and to rededicate our lives to the lotus feet of Sri Sri Radha-Krishna.`,
       `The proper way to celebrate Janmashtami, as taught by our revered Founder-Acharya Srila Prabhupada and the Gaudiya Vaishnava tradition, is with a heart full of devotion and a focus on our relationship with the Lord. The day is marked by a strict fast until midnight, the exact moment of Krishna's appearance. Throughout the day, our focus is on hearing and chanting the glories of Krishna. We read from the sacred Tenth Canto of the Srimad Bhagavatam, which beautifully narrates His divine pastimes. The temples are a hive of spiritual activity, with continuous kirtan, bhajans, and discourses. The deities of Sri Sri Radha-Krishna are adorned in new, resplendent clothing and jewelry. As midnight approaches, the atmosphere intensifies with anticipation. A grand abhisheka, a sacred bathing ceremony, is performed for the Deities of baby Krishna with milk, yogurt, honey, ghee, and various juices, all offered with pure love. This is followed by a beautiful arati, where we offer lamps and flowers to the Lord. After the midnight celebration, the fast is broken by honoring prasadam—sanctified vegetarian food lovingly prepared for Krishna. By engaging in these activities, we not only celebrate a historical event but we also invite Krishna to appear in our own hearts. Hare Krishna.`,
     ],
+    link: "/festivals/1",
   },
 ];
 
