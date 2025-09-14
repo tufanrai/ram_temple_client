@@ -159,13 +159,6 @@ const HeaderPage = () => {
                           <NavigationMenuLink
                             className="text-black text-sm font-light bg-white/25"
                             onClick={() => tabClosed()}
-                            href="/about/founder"
-                          >
-                            Founder
-                          </NavigationMenuLink>
-                          <NavigationMenuLink
-                            className="text-black text-sm font-light bg-white/25"
-                            onClick={() => tabClosed()}
                             href="/about/JASS"
                           >
                             Leadership
