@@ -5,6 +5,7 @@ import HeaderPage from "../components/navigation/HeaderPage";
 import FooterPage from "../components/Footer/FooterPage";
 import ReactQueryProvider from "@/src/components/provider/QueryProvider";
 import { Toaster } from "react-hot-toast";
+import { Facebook } from "react-feather";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -18,7 +19,10 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Shree Ramchandra Temple",
-  description: "Temple ",
+  description:
+    "Experience the divine blessings of Lord Ram. Get live darshan, complete history, daily aarti timings, and pilgrimage guide for the sacred Shri Ram Chandra Temple in Ayodhya. Plan your visit today. Complete schedule and guide for all festivals at Shri Ram Chandra Temple Ayodhya. Celebrate Ram Navami, Diwali, Janmashtami, and more with live events, puja booking, and rituals. Celebrate Ram Navami 2024 at the sacred Shri Ram Chandra Temple in Ayodhya. Special puja rituals, aarti timings, event schedule, and how to participate online. Book your seva now.",
+  keywords:
+    "Ram Chandra Temple, Ayodhya Ram Mandir, Ram Temple, Lord Ram, Ayodhya Temple, Ram Darshan, Aarti Timings, Hindu Temple, Pilgrimage Ram Navami, Diwali in Ayodhya, Janmashtami, Ram Temple Festivals, Hindu Festivals, Puja Booking, Ayodhya Events, Ram Navami 2024, Ram Navami Ayodhya, Ram Navami Puja, Birthday of Lord Ram, Seva Booking",
 };
 
 export default function RootLayout({
