@@ -4,11 +4,12 @@
   "private": true,
   "homepage": "http://ramchandratemple.com/",
   "scripts": {
-    "dev": "next dev --turbopack",
-    "build": "next build",
-    "start": "NODE_ENV=production node server.js",
-    "lint": "next lint"
-  },
+  "dev": "next dev",
+  "build": "next build",
+  "start": "next start",
+  "lint": "next lint",
+  "export": "next export"
+},
   "dependencies": {
     "@hookform/resolvers": "^5.1.1",
     "@radix-ui/react-accordion": "^1.2.11",
